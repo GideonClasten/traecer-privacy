@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Traecer Privacy Policy</title>
+  <meta
+    name="description"
+    content="Privacy Policy for Traecer, a strength-training progress tracking app."
+  />
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0b0d10;
+      --surface: #12151a;
+      --text: #f4f6f8;
+      --muted: #aeb6c2;
+      --border: #252a32;
+      --accent: #8fa8ff;
+      --max-width: 820px;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7f8fa;
+        --surface: #ffffff;
+        --text: #15171a;
+        --muted: #5f6670;
+        --border: #e3e6eb;
+        --accent: #3559c7;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(calc(100% - 32px), var(--max-width));
+      margin: 0 auto;
+      padding: 64px 0 96px;
+    }
+
+    header {
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      margin: 0 0 8px;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 6vw, 54px);
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+    }
+
+    .effective-date {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    h2 {
+      margin-top: 52px;
+      margin-bottom: 16px;
+      font-size: 24px;
+      line-height: 1.25;
+      letter-spacing: -0.015em;
+    }
+
+    h3 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    .intro {
+      font-size: 18px;
+      color: var(--muted);
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .contact-card {
+      margin-top: 28px;
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--surface);
+    }
+
+    footer {
+      margin-top: 64px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        width: min(calc(100% - 24px), var(--max-width));
+        padding-top: 40px;
+      }
+
+      header {
+        margin-bottom: 36px;
+      }
+
+      h2 {
+        margin-top: 42px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <p class="brand">Traecer</p>
+      <h1>Privacy Policy</h1>
+      <p class="effective-date">Effective date: October 4, 2026</p>
+    </header>
+
+    <p class="intro">
+      Traecer is a strength-training app for logging workouts and reviewing
+      exercise performance, training history, and progression. It is operated
+      by Gideon Clasten, an individual developer in Norway.
+    </p>
+
+    <p>
+      This policy explains what information Traecer processes and the choices
+      available to you. For privacy questions or requests, contact
+      <a href="mailto:traecer.privacy@gmail.com">
+        traecer.privacy@gmail.com
+      </a>.
+    </p>
+
+    <section>
+      <h2>1. Information we process</h2>
+
+      <h3>Account and profile information</h3>
+
+      <p>
+        We process your email address, account identifier, display name,
+        username, and optional Gender selection and profile photo. Signup also
+        stores your display name, username, and Gender choice in authentication
+        account metadata. Your password is not put in that metadata.
+      </p>
+
+      <p>
+        Supabase Auth handles sign-in credentials. Traecer does not save your
+        password in profile or workout records. The app stores authentication
+        session information on your device so you can remain signed in.
+      </p>
+
+      <h3>Training information</h3>
+
+      <p>
+        We store the training information you save, including workout names and
+        types, dates and times, exercises, set positions, weights, repetitions,
+        set types, and completion times. This includes workout templates,
+        exercise ordering, custom exercise names and notes, muscle and equipment
+        selections, and custom equipment.
+      </p>
+
+      <p>
+        Completed workouts also retain exercise details as they appeared in that
+        workout. Progress, personal records, volume comparisons, and Ghost Sets
+        are calculated from your training records; they are not separate public
+        profiles.
+      </p>
+
+      <h3>Preferences</h3>
+
+      <p>
+        We store settings such as language, appearance, weight units, rest-timer
+        duration, previous-weight and repetition preferences, previous-workout
+        visibility, and Spotlight exercise and rotation selections.
+      </p>
+
+      <p>
+        When an account is created, settings also store a body-illustration
+        value (female, male, or neutral) based on Gender at that time. Changing
+        Gender later does not update this stored value. Illustrations use your
+        current Gender selection. The stored value is not used for workout or
+        Progress calculations and is not part of a public profile.
+      </p>
+
+      <h3>Imported training history</h3>
+
+      <p>
+        When you select a CSV file, Traecer reads it on your device and creates
+        a temporary local cache copy. The current importer does not upload the
+        original CSV file to our backend. Supported Weight + Reps workout
+        information extracted from it is saved as training records.
+      </p>
+
+      <p>
+        Exercise and equipment information created during import, and your saved
+        source-name-to-exercise mapping decisions, may also be stored. Saved
+        mappings are specific to your account, not shared aliases for other
+        users. Created exercises, equipment, or mappings can remain saved even
+        if a later workout-import step fails.
+      </p>
+
+      <h3>Local and operational information</h3>
+
+      <p>
+        The app stores an active workout draft and account/session state locally
+        to support normal operation and workout recovery. Earlier versions may
+        have left local exercise, template, or history records. Selected photos,
+        CSV copies, and image caches may also remain on the device.
+      </p>
+
+      <p>
+        Backend services may process operational information needed to serve
+        requests and maintain reliability, such as IP addresses, request
+        details, account identifiers, error codes, and timestamps. This policy
+        does not describe their exact log contents or retention. Development
+        builds can produce diagnostic logs; Traecer does not include a dedicated
+        in-app behavioral analytics, advertising, or third-party crash-reporting
+        SDK. Traecer does not collect advertising identifiers or a persistent
+        device identifier for tracking.
+      </p>
+
+      <p>
+        If you email us, we receive your email address, message, and any
+        information or attachments you choose to include.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. How we use information</h2>
+
+      <p>
+        We use this information to authenticate you, maintain your account, save
+        and restore workouts, display History and progression, provide Ghost
+        Sets, manage templates and custom exercises/equipment, remember
+        preferences, process imports, maintain security and reliability, and
+        respond to support or privacy requests.
+      </p>
+
+      <p>
+        Traecer does not sell or rent personal data, or use it for advertising.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Gender and body illustrations</h2>
+
+      <p>
+        Gender is optional. The available choices are Female, Male, and Prefer
+        not to say. The choice selects the anatomical illustrations shown in
+        the app. It does not determine exercise access, workout calculations,
+        or Progress calculations.
+      </p>
+
+      <p>
+        Gender is not publicly displayed or shared with other users. Like other
+        profile information, it is processed by our backend provider to save and
+        load your profile. You can change it in Profile &amp; Settings.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Service providers</h2>
+
+      <p>
+        Supabase provides authentication, database hosting, private profile-image
+        storage, and the server-side account-deletion function. It processes
+        account, profile, settings, and training information as needed to provide
+        those services.
+        See
+        <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">
+          Supabase's privacy information
+        </a>.
+      </p>
+
+      <p>
+        Traecer uses Expo's software and EAS build services to develop and
+        package the app. Apple provides iOS app distribution through TestFlight
+        and the App Store. These services may process operational or
+        distribution information under their own policies; Traecer's
+        workout-storage backend is Supabase, not Expo/EAS.
+        See
+        <a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer">
+          Expo's privacy information
+        </a>
+        and
+        <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
+          Apple's privacy policy
+        </a>.
+      </p>
+
+      <p>
+        Our privacy contact uses Gmail, so messages sent to that address are
+        processed by Google's email service.
+        See
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+          Google's privacy policy
+        </a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Photos and files</h2>
+
+      <p>
+        You can choose a profile image through the photo-library picker. Only
+        the selected image is uploaded to private profile-image storage; Traecer
+        does not upload your entire photo library. Access to uploaded avatars is
+        restricted, and the app uses temporary signed links to display them.
+      </p>
+
+      <p>
+        The iOS app includes a photo-library permission explanation. It does not
+        request camera, microphone, location, contacts, or advertising-tracking
+        permission. CSV import reads a file you explicitly select through the
+        system file picker. Selecting an image or file does not delete or modify
+        your original photo or CSV.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Storage and security</h2>
+
+      <p>
+        Traecer uses authentication, database ownership/access policies, private
+        avatar storage, and HTTPS connections to its backend. These controls are
+        intended to restrict access to account-specific information. No
+        internet-based service or device can guarantee absolute security.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Retention</h2>
+
+      <p>
+        Account and saved training information remain available while you keep
+        your account, unless you remove information through supported app
+        actions or delete the account. Archiving an exercise does not erase
+        completed workout history.
+      </p>
+
+      <p>
+        Operational logs and backups are subject to our providers' retention
+        arrangements. We do not promise a particular backup-erasure timeframe.
+        Privacy/support correspondence is separate from app account records and
+        is not automatically removed by in-app account deletion; contact us
+        about that correspondence.
+      </p>
+
+      <p>
+        Local caches, original files, legacy records, and copies on other
+        devices or in device backups are not all covered by the app's
+        account-deletion cleanup.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Account deletion</h2>
+
+      <p>
+        You can request permanent deletion inside the app through
+        <strong>Profile &amp; Settings → Data &amp; Privacy → Delete Account</strong>,
+        then confirm the destructive action.
+      </p>
+
+      <p>
+        The server verifies your authenticated identity, removes files from your
+        account's avatar-storage folder, and deletes your authentication
+        account. Database relationships delete your profile, settings,
+        Spotlight selections, custom exercises and equipment, templates and
+        their exercise entries, workouts and their exercise/set records, and
+        saved import mappings. Shared built-in exercises and equipment remain
+        because they are not owned by your account.
+      </p>
+
+      <p>
+        Following successful deletion, the app signs you out, resets its account
+        state, and attempts to remove your account-keyed workout draft,
+        history/template records, and stored authentication session from the
+        current device. This does not erase your original CSV or photos, all
+        temporary caches or legacy local records, other-device copies, provider
+        logs/backups, or email correspondence.
+      </p>
+
+      <p>
+        Deletion requires a working connection. If deletion cannot be confirmed,
+        the app reports failure rather than confirming deletion; your account
+        can remain, even if avatar cleanup has already occurred. Retry or
+        contact us for assistance.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Your choices and rights</h2>
+
+      <p>
+        You can edit supported profile and settings fields, omit Gender or a
+        profile photo, choose whether to import a file, and delete your account.
+      </p>
+
+      <p>
+        Depending on where you live, you may have rights to access, correct,
+        delete, or receive a portable copy of your personal data, restrict or
+        object to processing, and withdraw consent where processing is based on
+        consent. Send requests to
+        <a href="mailto:traecer.privacy@gmail.com">
+          traecer.privacy@gmail.com
+        </a>.
+        We may need to verify your identity before releasing or changing account
+        information. The app does not currently provide a working self-service
+        data-export feature.
+      </p>
+
+      <p>
+        You may also complain to your local data-protection authority. In
+        Norway, this is
+        <a href="https://www.datatilsynet.no/en/" target="_blank" rel="noopener noreferrer">
+          Datatilsynet
+        </a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Age eligibility</h2>
+
+      <p>
+        Traecer is intended for users aged 18 and older. It is not directed to
+        children. The app does not verify your age. If you believe an underage
+        user has provided information, contact us.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. International processing</h2>
+
+      <p>
+        Service providers may process information outside Norway or your country
+        of residence. This policy does not name the countries or transfer
+        safeguards our providers use, because those details are not verified
+        here. Contact
+        <a href="mailto:traecer.privacy@gmail.com">
+          traecer.privacy@gmail.com
+        </a>
+        and we will share what we can confirm.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Changes</h2>
+
+      <p>
+        Updates to this policy will be reflected in its effective date. Material
+        changes may also be explained through additional notices where
+        appropriate.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Contact</h2>
+
+      <div class="contact-card">
+        <p><strong>Operator:</strong> Gideon Clasten, Norway.</p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:traecer.privacy@gmail.com">
+            traecer.privacy@gmail.com
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Traecer
+    </footer>
+  </main>
+</body>
+</html>
